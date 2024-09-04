@@ -18,6 +18,9 @@ html {
 	footer a {
 		color: grey;
 	}
+	button {
+		margin: 3px;
+	}
 	#Titulos {
 		display: flex;
 		justify-content: space-between; /* Esto hace que los elementos esten uno al lado del otro */
@@ -33,7 +36,7 @@ html {
 		width: 50%; /* Ajusta el ancho */
 		margin: 45px; /* Centra el contenedor en la página */
 		/*line-height: 1.5;*/
-		img.perfil{
+		img.perfil {
 			border-radius: 50%;
 		}
 		#Descripcion {
