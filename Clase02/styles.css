@@ -1,0 +1,52 @@
+html {
+	background-color: rgb(34,39,46);
+	color: #ffffff;
+	padding: 20px;
+  	margin: 10px;
+	  button {
+		background: transparent;
+		color: rgb(183, 183, 190);
+		border-radius: 15%;
+	}
+	main {
+		display: flex;
+		flex-direction: row;
+	}
+	a {
+		color: #478be6;
+	}
+	footer a {
+		color: grey;
+	}
+	#Titulos {
+		display: flex;
+		justify-content: space-between; /* Esto hace que los elementos esten uno al lado del otro */
+	}
+	
+	#Titulo1, #Titulo2 {
+		display: flex;
+		align-items: center;
+	}
+	
+	#Perfil {
+		display: flex;
+		width: 50%; /* Ajusta el ancho */
+		margin: 45px; /* Centra el contenedor en la página */
+		/*line-height: 1.5;*/
+		img.perfil{
+			border-radius: 50%;
+		}
+		#Descripcion {
+			margin: auto;
+			text-align: center;
+			border: rgb(183, 183, 190);
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 5%;
+			padding: 15%;
+			padding-left: 50%;
+			padding-right: 50%;
+		}
+	}
+	
+}

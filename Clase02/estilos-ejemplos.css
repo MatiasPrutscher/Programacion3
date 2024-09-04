@@ -1,0 +1,23 @@
+/* Cambia el color del texto dentro de los párrafos */
+p {
+    color: red;
+}
+a { 
+	color: blue; 
+}
+body {
+	background-color: rgba(34,39,46,255);
+	color: white;
+}
+/*footer {
+	a{
+		color: grey;
+	}
+}*/
+footer a {
+	color: grey;
+}
+#original {
+	background-color: white;
+	color: black;
+}
