@@ -1,0 +1,9 @@
+/* Fuente general del sitio */
+body {
+	font-family: 'Arial', sans-serif;
+  }
+  
+  /* Fuente específica para la sección lateral */
+  #lateral ul {
+	font-family: 'Courier New', Courier, monospace;
+  }
